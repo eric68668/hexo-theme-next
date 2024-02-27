@@ -3,7 +3,7 @@
   word-wrap();
 
   +desktop-large() {
-    font-size: $font-size-large;
+    font-size: $font-size-small;
   }
 
   +desktop() {
@@ -12,6 +12,10 @@
 
   +tablet-mobile() {
     text-align: unquote(hexo-config('text_align.mobile'));
+  }
+
+  p {
+    margin: 0 0 0.25em;
   }
 
   h1, h2, h3, h4, h5, h6 {
